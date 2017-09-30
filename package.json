@@ -1,0 +1,21 @@
+{
+  "name": "beta-signup-serverless",
+  "version": "1.0.0",
+  "description": "A demo beta signup page built with serverless tech",
+  "main": "index.js",
+  "engines": {
+    "node": "6.10.3"
+  },
+  "scripts": {
+    "prepare-shell": "source env-setup",
+    "setup": "yarn && cd backend && yarn",
+    "deploy:backend": "source env-setup && cd backend && sls deploy",
+    "deploy:frontend": "aws s3 sync frontend s3://beta-demo-dan --profile beta-demo"
+  },
+  "repository": "https://github.com/rlgod/beta-signup-serverless.git",
+  "author": "Daniel Parker <dparker.tech@gmail.com>",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@types/node": "^8.0.31"
+  }
+}

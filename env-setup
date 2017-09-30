@@ -1,0 +1,3 @@
+echo "Exporting local serverless framework installation"
+export PATH=$PWD/backend/node_modules/.bin:$PATH
+echo "Now using $PWD/backend/node_modules/.bin/sls"
