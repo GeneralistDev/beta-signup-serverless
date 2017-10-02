@@ -1,6 +1,8 @@
 # beta-signup-serverless
 A demo beta signup page built with serverless tech on AWS
 
+Ask questions in the [gitter chat room](https://gitter.im/beta-signup-serverless/Lobby?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
+
 # Dependencies
 * Node 6.10.3
 * Yarn 0.27.5
